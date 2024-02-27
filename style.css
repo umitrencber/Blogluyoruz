@@ -15,4 +15,87 @@
     width: 25%; /* veya istediğiniz genişlik */
     overflow-y: auto; /* Sayfa boyutu sabitlendiğinde kaydırma çubuğunu etkinleştir */
   }
+  .frontImg{
+    width: 300px;
+    height: 170px;
+  }
+  .frontImg:hover {
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+  }
+  @-webkit-keyframes flash {
+    0% {
+      opacity: .4;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes flash {
+    0% {
+      opacity: .4;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .addWritersyanYana{
+    display: inline-block;
+  }
 
+  .writersUmit{
+    background-color: #bfe809a4;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 45px;
+    text-align: center;
+    width: 110px;
+    text-decoration: none;
+    font-size:13px;
+    border-color: black;
+  }
+  .writersUmit:hover{
+    background-color: #c4ef03;
+  
+  }
+  .writersNisa{
+    background-color: #ff0202c7;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 45px;
+    text-align: center;
+    width: 110px;
+    text-decoration: none;
+    font-size:13px;
+  }
+  .writersNisa:hover{
+    background-color: #ff0202;
+  }
+  .writersCemre{
+    background-color: #f601faae;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 45px;
+    text-align: center;
+    width: 110px;
+    text-decoration: none;
+    font-size:13px;
+  }
+  .writersCemre:hover{
+    background-color: #fb00ff;
+  }
+  .writersEtem{
+    background-color: #36fe0475;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 45px;
+    text-align: center;
+    width: 110px;
+    text-decoration: none;
+    font-size:13px;
+  }
+  .writersEtem:hover{
+    background-color: #34fe019a;
+  }
+  
